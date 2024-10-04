@@ -1,0 +1,83 @@
+/* Default theme */
+body {
+    background-color: #87e79c70;
+}
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Layout styles */
+.l-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.l-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+
+/* Navigation module */
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ccc;
+}
+
+.button-1{
+    color: #000;
+    padding: 20px;
+font-size: 2rem;
+font-weight: 600;
+background-color: rgb(40, 204, 40);
+}
+
+.button-2{
+    color: #000;
+    padding: 20px;
+font-size: 2rem;
+font-weight: 600;
+background-color: rgb(238, 149, 75);
+}
+.button-3{
+    color: #000;
+    padding: 20px;
+font-size: 2rem;
+font-weight: 600;
+background-color: rgb(204, 40, 141);
+}
